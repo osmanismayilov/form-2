@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(150deg, #71b7de, #bf71de);
+}
+
+.container {
+    width: 90%;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.form>input {
+    width: 95%;
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc
+}
+
+.form>input::placeholder {
+   opacity: 0.5;
+}
+
+.column a {
+    text-decoration: none;
+    color: #000;
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.column a:link {
+    color: #000;
+}
+.column a:hover {
+    color: #7171de;
+}
+
+.column a:active {
+    color: #c23b5a;
+}
+
+.column a.active {
+    color: #c23b5a;
+}
+/* .column a:visited {
+    color: #1619cb;
+} */
+
+.column .reset {
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 40px;
+    background: linear-gradient(100deg, #71b7de, #bf71de);
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.check-box, hr {
+    clear: both;
+    margin: 10px 0 10px 0;
+}
+
+.check-box {
+    padding: 20px;
+    font-size: 40px;
+}
+
+.check-box label {
+    margin-left: 15px;
+}
